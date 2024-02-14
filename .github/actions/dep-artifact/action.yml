@@ -18,7 +18,7 @@ runs:
   using: "composite"
   steps:
     - name: Download artifact
-      uses: dawidd6/action-download-artifact@v3
+      uses: romangg/action-download-artifact@fix-branch
       with:
         name: tar-package
         repo: ${{ inputs.repo }}
