@@ -18,6 +18,7 @@ runs:
     - name: Install The Compositor Modules
       uses: ./.github/actions/dep-artifact-generic
       with:
-        repo: winft/como
+        repo: romangg/como
         dep-name: como
+        branch: master
         secret: ${{ inputs.secret }}
